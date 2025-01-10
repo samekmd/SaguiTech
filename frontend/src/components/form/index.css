@@ -1,0 +1,30 @@
+/* Estilo geral para o TextField */
+.text-field {
+    width: 60%;
+    
+  }
+  
+  .text-field input {
+    color: white; /* Cor do texto digitado */
+  }
+  
+  .text-field label {
+    color: white; /* Cor do texto do label */
+  }
+  
+  .text-field .MuiOutlinedInput-root fieldset {
+    border-color: white; /* Borda branca padrão */
+  }
+  
+  .text-field .MuiOutlinedInput-root:hover fieldset {
+    border-color: white; /* Borda branca ao passar o mouse */
+  }
+  
+  .text-field .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color: white; /* Borda branca ao focar */
+  }
+  
+  .text-field .MuiInputBase-input::placeholder {
+    color: white; /* Cor do placeholder, se necessário */
+  }
+  
